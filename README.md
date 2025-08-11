@@ -1,0 +1,38 @@
+# POWERBI_DATA_CLEANING
+
+Python scripts for cleaning and preparing data for Power BI dashboards, created specifically for the needs of the DigiKhata database.  
+These scripts help standardize, transform, and prepare raw datasets for accurate reporting and visualization.
+
+## 📂 Folder Structure
+POWERBI_DATA_CLEANING/
+│
+├── assign_type_category.py # Assigns type categories to dataset entries
+├── change_type_category.py # Updates or modifies existing type categories
+├── clean_address.py # Cleans and formats address fields
+├── clean_name(text).py # Standardizes and cleans name fields
+├── clean_text.py # Removes unwanted characters and extra spaces from text
+├── clean_urdu(text).py # Cleans Urdu text fields
+├── create_type_category_col.py # Creates a new type category column
+├── decode_urdu.py # Decodes Urdu text from encoded formats
+├── detect_lang(text).py # Detects language of text entries
+└── extract_city.py # Extracts city names from address data
+
+
+## 🚀 Features
+- **Text cleaning**: Remove unwanted characters, spaces, and symbols  
+- **Language detection**: Identify Urdu or English text  
+- **Address parsing**: Extract city names and standardize address formatting  
+- **Categorization**: Assign or update type categories for business data  
+- **Encoding fixes**: Decode Urdu text from non-UTF formats  
+
+## 🛠 Technologies Used
+- **Python 3.13.5**
+- `pandas` for data manipulation
+- `re` for regex-based text cleaning
+
+## 📌 Notes
+These scripts were built around the specific structure of the DigiKhata database but can be adapted for other datasets with similar requirements.
+---
+
+**Author**: Maida Azhar  
+**Organization**: DigiKhata SMC PVT LTD.  
