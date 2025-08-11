@@ -36,3 +36,17 @@ These scripts were built around the specific structure of the DigiKhata database
 
 **Author**: Maida Azhar  
 **Organization**: DigiKhata SMC PVT LTD.  
+
+## Running in Power BI
+
+These scripts are designed to work directly inside Power BI's "Run Python Script" transform step.
+
+### Setup
+1. **Install Python**
+   - Download from [python.org](https://www.python.org/downloads/) (version 3.10 or later)
+   - Add Python to PATH during installation
+
+2. **Install required packages**
+   ```bash
+   pip install -r requirements.txt
+
